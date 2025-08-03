@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Join us at TechVerse 2025, the ultimate annual tech conference connecting innovators, developers, and thought leaders." />
+  <link rel="stylesheet" href="index.css">
+  <title>TechVerse 2025 Conference</title>
+</head>
+
+<body id="top">
+    <div class ="main-container">
+<header>
+  <div class="header-bar">
+    <img src="logo.png" alt="TechVerse Logo" class="logo" />
+
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <h1 class="event-title">TechVerse 2025 Conference</h1>
+</header>
+
+
+  <section id="overview">
+  <h2>About TechVerse 2025</h2>
+  
+  <p>
+    TechVerse 2025 is the premier annual gathering of tech enthusiasts, developers, entrepreneurs, and industry leaders from around the world. Join us for an immersive experience exploring the future of innovation, AI, cybersecurity, web technologies, and more.
+  </p>
+
+  <blockquote>
+    “TechVerse is more than just a conference — it’s a catalyst for innovation and collaboration.”<br>
+    — Judy Elsheikh, Conference Organizer
+  </blockquote>
+
+  <h3>Key Topics You'll Discover:</h3>
+
+  <ul>
+    <li>Emerging Technologies</li>
+    <li>Start-up Showcases</li>
+    <li>Women in Tech</li>
+  </ul>
+
+  <ol>
+    <li>Artificial Intelligence & Machine Learning</li>
+    <li>Web Development Trends</li>
+    <li>Cybersecurity in the Modern Age</li>
+  </ol>
+  </section>
+
+  <section id="speakers">
+  <h2>Featured Speakers</h2>
+
+  <p>Meet some of the brilliant minds speaking at TechVerse 2025.</p>
+
+  <table border ="1" cellpadding ="8" cellspacing ="0">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Topic</th>
+        <th>Organization</th>
+        <th>Time Slot</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dr. Amina Farouk</td>
+        <td>Future of Artificial Intelligence</td>
+        <td>AI Labs</td>
+        <td>10:00 AM – 11:00 AM</td>
+      </tr>
+      <tr>
+        <td>Lucas Chen</td>
+        <td>Next-Gen Web Development</td>
+        <td>DevTech</td>
+        <td>11:15 AM – 12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Fatima Nassar</td>
+        <td>Cybersecurity in 2025</td>
+        <td>SecureNet</td>
+        <td>1:30 PM – 2:15 PM</td>
+      </tr>
+      <tr>
+        <td>Omar Khaled</td>
+        <td>Building Ethical Tech Startups</td>
+        <td>EthicStart</td>
+        <td>3:00 PM – 3:45 PM</td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+
+  <section id="media">
+  <h2>Experience TechVerse</h2>
+  <h3>Highlights from TechVerse 2024</h3>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    title="TechVerse 2024 Highlights" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+
+  <h3>Welcome Message from the Organizer</h3>
+  <audio controls>
+    <source src="welcome-message.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h3>Teaser: What’s Coming in 2025</h3>
+  <figure>
+    <img src="lastyear.jpeg" alt="TechVerse 2025 teaser image" width="600" />
+    <figcaption>Get ready for groundbreaking keynotes, networking, and futuristic demos at TechVerse 2025.</figcaption>
+  </figure>
+</section>
+
+  <section id="register">
+  <h2>Register for TechVerse 2025</h2>
+
+  <form action="#" method="post">
+    <!-- Full Name -->
+     <div>
+    <label for="fullname">Full Name:</label>
+    <input 
+      type="text" 
+      id="fullname" 
+      name="fullname" 
+      placeholder="Your full name" 
+      aria-label="Full Name" 
+      required 
+    />
+
+    <!-- Email -->
+    <label for="email">Email Address:</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="you@example.com" 
+      aria-label="Email Address" 
+      required 
+    />
+
+    <!-- Date of Attendance -->
+    <label for="date">Preferred Attendance Date:</label>
+    <input 
+      type="date" 
+      id="date" 
+      name="attendance_date" 
+      aria-label="Preferred Attendance Date" 
+      required 
+    />
+
+    <!-- Track Selection -->
+    <label for="track">Choose Your Track:</label>
+    <select id="track" name="track" aria-label="Conference Track" required>
+      <option value="">--Please choose an option--</option>
+      <option value="ai">Artificial Intelligence</option>
+      <option value="webdev">Web Development</option>
+      <option value="cyber">Cybersecurity</option>
+      <option value="startup">Startup & Innovation</option>
+    </select>
+
+    <!-- Ticket Type (Radio) -->
+    <p>Ticket Type:</p>
+    <label>
+      <input 
+        type="radio" 
+        name="ticket_type" 
+        value="standard" 
+        aria-label="Standard Ticket" 
+        required 
+      />
+      Standard
+    </label>
+    <label>
+      <input 
+        type="radio" 
+        name="ticket_type" 
+        value="vip" 
+        aria-label="VIP Ticket" 
+        required 
+      />
+      VIP
+    </label>
+    </div>
+    <div>
+    <!-- Newsletter Subscription (Checkbox) -->
+    <label>
+      <input 
+        type="checkbox" 
+        name="subscribe" 
+        value="yes" 
+        aria-label="Subscribe to newsletter" 
+      />
+      Subscribe to our newsletter
+    </label>
+    </div>
+    <div>
+    <!-- Comments -->
+    <label for="comments">Additional Comments:</label>
+    <textarea 
+      id="comments" 
+      name="comments" 
+      placeholder="Let us know anything we should be aware of..." 
+      aria-label="Additional Comments"
+    ></textarea>
+     </div>
+    <!-- Submit Button -->
+    <button type="submit" aria-label="Submit Registration">Register</button>
+  </form>
+</section>
+
+
+ <footer id="footer">
+  <h2>Contact & Connect</h2>
+
+  <!-- Contact Info -->
+  <address>
+    TechVerse Organizing Committee<br>
+    123 Innovation Street<br>
+    Cairo, Egypt<br>
+    Email: <a href="mailto:info@techverse2025.com">info@techverse2025.com</a><br>
+    Phone: +20 123 456 7890
+  </address>
+
+  <!-- Social Media Links -->
+  <p>Follow us on:</p>
+  <ul>
+    <li>
+      <a href="https://facebook.com/techverse" target="_blank" rel="noopener noreferrer">
+        Facebook
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/techverse" target="_blank" rel="noopener noreferrer">
+        Twitter (X)
+      </a>
+    </li>
+    <li>
+      <a href="https://linkedin.com/company/techverse" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+    </li>
+  </ul>
+
+  <p>&copy; 2025 TechVerse Conference. All rights reserved.</p>
+</footer>
+
+
+  <!-- Back to top link -->
+  <p><a href="#top">Back to Top</a></p>
+  </div>
+</body>
+
+</html>
+
